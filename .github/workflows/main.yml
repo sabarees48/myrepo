@@ -16,5 +16,5 @@ jobs:
           branch: "first"
           base: main
           title: "demo for auto PR"
-          token: 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
+          token: Terrorsaba@4
           delete-branch: false
