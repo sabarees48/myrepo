@@ -8,11 +8,5 @@ jobs:
     steps:
       - name: Check out
         uses: actions/checkout@v1
-
-      - name: Raise PR
-        uses: myrepo/create-pull-request@v2
-        with:
-          branch: "first"
-          base: main
-          title: "demo for auto PR"
-          delete-branch: false
+      - name: Test
+        run: echo "done"
