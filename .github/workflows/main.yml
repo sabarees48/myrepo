@@ -16,5 +16,5 @@ jobs:
           branch: "first"
           base: main
           title: "demo for auto PR"
-          token: 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
+          token: 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
           delete-branch: false
