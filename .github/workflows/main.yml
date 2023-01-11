@@ -11,7 +11,7 @@ jobs:
       - name: Test
         run: echo "done"
       - name: Raise PR
-        uses: vsoch/pull-request-action@master
+        uses: peter-evans/create-pull-request@v3
         with:
           branch: "first"
           base: main
