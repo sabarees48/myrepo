@@ -10,4 +10,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: extract git commit data
-        uses: sabarees48/myrepo@v1.x
+        uses: sabarees48/myrepo@v1
