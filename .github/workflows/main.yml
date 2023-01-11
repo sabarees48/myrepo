@@ -10,3 +10,10 @@ jobs:
         uses: actions/checkout@v1
       - name: Test
         run: echo "done"
+      - name: Raise PR
+        uses: myrepo/create-pull-request@main
+        with:
+          branch: "first"
+          base: main
+          title: "demo for auto PR"
+          delete-branch: false
