@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out
-        uses: actions/checkout@v2
+        uses: actions/checkout@v1
 
       - name: Raise PR
-        uses: myrepo/create-pull-request@v3
+        uses: myrepo/create-pull-request@v2
         with:
           branch: "first"
           base: main
