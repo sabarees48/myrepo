@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out
-        uses: actions/checkout@v1
-      - name: Test
-        run: echo "done"
+        uses: actions/checkout@v2
+      - name: extract git commit data 
+        uses: rlespinasse/git-commit-data-action@v1.x
       - name: Raise PR
         uses: peter-evans/create-pull-request@v3
         with:
