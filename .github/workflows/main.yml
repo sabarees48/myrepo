@@ -16,5 +16,5 @@ jobs:
           branch: "first"
           base: main
           title: "demo for auto PR"
-          token: "Terrorsaba@4"
+          token: ${{ secrets.SECRET_TOKEN}}
           delete-branch: false
